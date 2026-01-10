@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from core.security import create_jwt_token
+from app.core.security import create_jwt_token
 
 
 router = APIRouter()

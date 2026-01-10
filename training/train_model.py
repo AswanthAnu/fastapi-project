@@ -8,6 +8,9 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.ensemble import RandomForestRegressor
 from train_utils import DATA_FILE_PATH, MODEL_DIR_PATH, MODEL_PATH
+import sklearn
+
+print(sklearn.__version__)
 
 df = (pd
       .read_csv(DATA_FILE_PATH)
